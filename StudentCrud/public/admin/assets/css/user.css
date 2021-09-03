@@ -1,0 +1,89 @@
+body {
+    background-color: #F0F3F4;
+    width: 100%;
+    height: 100vh;
+  }
+.user-table{
+    margin-top: 20px;
+}
+.user-tr th{
+    padding:10px;
+    padding-right: 40px;
+    font-size: 17px;
+    color: #333;
+}
+.user1-tr td{
+    padding:10px;
+    padding-right: 40px;
+    font-size: 15px;
+    color: #333;
+}
+.user-main{
+    position: relative; 
+    top: 40px; 
+    right: -100px;
+}
+.user-main h1{
+    font-size: 20px;
+    color: #333;
+}
+.btn-default {
+    background-color: #fff;
+    color: #333;
+    border-color: #ccc;
+}
+
+.btn {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+.user-tr th::after{
+    height: 0.1px;
+    width: 100%;
+    display: block;
+    content: '';
+    background: #ccc;
+    padding: 0%;
+}
+.user1-tr td::after{
+    height: 0.1px;
+    width: 100%;
+    display: block;
+    content: '';
+    background: #ccc;
+    padding: 0%;
+}
+.btn-sm{
+    width: 20px;
+    height: 20px;
+}
+.btn-sm, .btn-group-sm > .btn {
+    padding: 1px ;
+    padding-top: 0px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+}
+.btn-danger {
+    background-color: #ed5565;
+    border-color: #ed5565;
+    color: #FFFFFF;
+}
